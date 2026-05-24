@@ -1,0 +1,12 @@
+linters:
+  enable:
+    - errcheck
+    - govet
+    - staticcheck
+    - gofmt
+    - gosec
+
+linters-settings:
+  gosec:
+    excludes:
+      - G304  # ファイルパスの変数使用（.taskrc探索で必要）

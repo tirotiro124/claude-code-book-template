@@ -1,0 +1,23 @@
+- generic [ref=e3]:
+  - heading "タスク管理" [level=1] [ref=e4]
+  - generic [ref=e5]:
+    - textbox "新しいタスクを入力..." [ref=e6]: 本番リリースのテスト
+    - generic [ref=e7]:
+      - button "高" [active] [ref=e8] [cursor=pointer]
+      - button "中" [ref=e9] [cursor=pointer]
+      - button "低" [ref=e10] [cursor=pointer]
+    - button "追加" [ref=e11] [cursor=pointer]
+  - paragraph [ref=e12]: 2 件中 1 件が未完了
+  - list [ref=e13]:
+    - listitem [ref=e14]:
+      - button "✓" [ref=e15] [cursor=pointer]
+      - generic [ref=e16]: 中
+      - generic [ref=e17]: テストタスク
+      - button "✎" [disabled] [ref=e18]
+      - button "✕" [ref=e19] [cursor=pointer]
+    - listitem [ref=e20]:
+      - button "○" [ref=e21] [cursor=pointer]
+      - generic "クリックで優先度を変更" [ref=e22] [cursor=pointer]: 中
+      - generic "ダブルクリックで編集" [ref=e23]: ミーティングの準
+      - button "✎" [ref=e24] [cursor=pointer]
+      - button "✕" [ref=e25] [cursor=pointer]

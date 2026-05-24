@@ -1,0 +1,35 @@
+- generic [ref=e3]:
+  - heading "タスク管理" [level=1] [ref=e4]
+  - generic [ref=e5]:
+    - textbox "新しいタスクを入力..." [ref=e6]
+    - generic [ref=e7]:
+      - button "高" [ref=e8] [cursor=pointer]
+      - button "中" [ref=e9] [cursor=pointer]
+      - button "低" [ref=e10] [cursor=pointer]
+    - button "追加" [active] [ref=e11] [cursor=pointer]
+  - paragraph [ref=e12]: 4 件中 3 件が未完了
+  - list [ref=e13]:
+    - listitem [ref=e14]:
+      - button "✓" [ref=e15] [cursor=pointer]
+      - generic [ref=e16]: 中
+      - generic [ref=e17]: テストタスク
+      - button "✎" [disabled] [ref=e18]
+      - button "✕" [ref=e19] [cursor=pointer]
+    - listitem [ref=e20]:
+      - button "○" [ref=e21] [cursor=pointer]
+      - generic "クリックで優先度を変更" [ref=e22] [cursor=pointer]: 中
+      - generic "ダブルクリックで編集" [ref=e23]: ミーティングの準
+      - button "✎" [ref=e24] [cursor=pointer]
+      - button "✕" [ref=e25] [cursor=pointer]
+    - listitem [ref=e26]:
+      - button "○" [ref=e27] [cursor=pointer]
+      - generic "クリックで優先度を変更" [ref=e28] [cursor=pointer]: 高
+      - generic "ダブルクリックで編集" [ref=e29]: 本番リリースのテスト
+      - button "✎" [ref=e30] [cursor=pointer]
+      - button "✕" [ref=e31] [cursor=pointer]
+    - listitem [ref=e32]:
+      - button "○" [ref=e33] [cursor=pointer]
+      - generic "クリックで優先度を変更" [ref=e34] [cursor=pointer]: 中
+      - generic "ダブルクリックで編集" [ref=e35]: ドキュメントを更新する
+      - button "✎" [ref=e36] [cursor=pointer]
+      - button "✕" [ref=e37] [cursor=pointer]

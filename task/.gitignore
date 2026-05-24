@@ -1,0 +1,11 @@
+task
+dist/
+coverage.out
+*.test
+.DS_Store
+.idea/
+.vscode/
+*.swp
+.env
+*.pem
+*.key

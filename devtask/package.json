@@ -1,0 +1,27 @@
+{
+  "name": "devtask",
+  "version": "0.1.0",
+  "description": "開発者チーム向けCLIタスク管理ツール",
+  "main": "dist/index.js",
+  "bin": {
+    "devtask": "./bin/devtask"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "commander": "^12.1.0",
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.8",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
